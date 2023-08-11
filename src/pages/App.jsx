@@ -3,7 +3,7 @@ import Profile from "../components/profile/profile";
 import Swicth from "../components/switch/switch";
 import Links from "../components/links/links";
 import SocialLinks from "../components/socialLinks/social.Links";
-// import SocialLinks from "../components/socialLinks/social.Links";
+import Footer from "../components/footer/footer";
 
 import "./App.css";
 
@@ -37,6 +37,7 @@ const App = () => {
                 <SocialLinks href={"#"} icon={"logo-youtube"} />
 
             </div>
+            <Footer link={"#"}>@MuriloGaliazzi</Footer>
         </div>
     );
 };
